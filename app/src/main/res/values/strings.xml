@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyWeatherReport</string>
+    <string name="add_city">添加城市</string>
+    <string name="text_on">开</string>
+    <string name="text_off">关</string>
+    <string name="service_settle">自动更新开关</string>
+    <string name="update_blank_setting">自动更新间隔</string>
+    <string name="notify_settle">通知开关</string>
+</resources>

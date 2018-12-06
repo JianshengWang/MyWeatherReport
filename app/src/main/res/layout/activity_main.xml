@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myweatherreport.MainActivity">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_alignBottom="@+id/viewpager"
+            android:background="#8000">
+
+                <ImageView
+                    android:id="@+id/list_view_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="32dp"
+                    android:background="@drawable/ic_home"
+                    android:layout_gravity="center"/>
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:id="@+id/viewpager_linerlayout"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:gravity="center" />
+
+                <ImageView
+                    android:id="@+id/list_view_setting_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="32dp"
+                    android:background="@drawable/ic_settings"
+                    android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+</RelativeLayout>
